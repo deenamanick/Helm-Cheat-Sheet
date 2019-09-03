@@ -68,4 +68,8 @@ helm delete --purge nginxserver
 ```
 helm create demo
 ```
+## Upgrade nginx from demo chart
+```
+helm upgrade nginxserver ~/demo
 
+```
