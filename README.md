@@ -73,3 +73,16 @@ helm create demo
 helm upgrade nginxserver ~/demo
 
 ```
+## To check the status of upgrade
+```
+helm status nginxserver
+```
+## To check the history
+```
+helm histroy nginxserver
+```
+## To rollback to prevision version
+```
+helm rollback nginxserver 1
+```
+
