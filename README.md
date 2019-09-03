@@ -37,3 +37,8 @@ kubectl apply -f ~/rbac.yaml
 ```
 helm init --service-account tiller
 ```
+
+## Update Chart Repo
+```
+helm repo update
+```
