@@ -42,3 +42,11 @@ helm init --service-account tiller
 ```
 helm repo update
 ```
+## Search Repo 
+
+```
+helm search 
+
+ex: helm search nginx
+
+```
