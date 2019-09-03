@@ -50,3 +50,22 @@ helm search
 ex: helm search nginx
 
 ```
+## Install nginx Application
+```
+helm install --name nginxserver stable/nginx
+
+```
+## List nginx Application
+```
+helm list
+```
+## Delete nginx Application
+```
+helm delete --purge nginxserver
+
+```
+## To create new chart
+```
+helm create demo
+```
+
